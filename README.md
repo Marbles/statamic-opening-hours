@@ -7,6 +7,8 @@ A set of opening hours is created by passing in a regular schedule, and a list o
 
 **This add-on requires >= PHP7.0**
 
+![Screenshot](http://i.imgur.com/GaMOnDR.png)
+
 ## Installation
 
 Download or clone the repository, rename the folder to `OpeningHours` then copy the folder to your site's `Addon` directory, then refresh the add-ons to install the dependencies.
