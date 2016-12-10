@@ -9,7 +9,7 @@ A set of opening hours is created by passing in a regular schedule, and a list o
 
 ## Installation
 
-Download or clone the repository, then copy the `OpeningHours` folder to your site's `Addon` directory, then refresh the add-ons to install the dependencies.
+Download or clone the repository, rename the folder to `OpeningHours` then copy the folder to your site's `Addon` directory, then refresh the add-ons to install the dependencies.
 
 ``` bash
 php please addons:refresh
