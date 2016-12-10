@@ -1,4 +1,4 @@
-# A helper to query and format a set of opening hours
+# An add-on to set up and display opening hours
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
