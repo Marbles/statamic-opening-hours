@@ -5,6 +5,8 @@
 With this Opening Hours add-on you can define the opening hours of your business in a settings panel. The add-on provides numerous tags to display or check the opening hours.
 A set of opening hours is created by passing in a regular schedule, and a list of exceptions.
 
+**This add-on requires >= PHP7.0**
+
 ## Installation
 
 Download or clone the repository, then copy the `OpeningHours` folder to your site's `Addon` directory, then refresh the add-ons to install the dependencies.
