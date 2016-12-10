@@ -1,0 +1,6 @@
+{
+    "name": "marbles/statamic-opening-hours",
+    "require": {
+        "spatie/opening-hours": "^1.1"
+    }
+}

@@ -1,0 +1,14 @@
+fields:
+  hours:
+    type: opening_hours
+  exceptions:
+    type: grid
+    add_row: Add Exception
+    fields:
+      date:
+        type: date
+        allow_time: false
+      from:
+        type: time
+      to:
+        type: time
