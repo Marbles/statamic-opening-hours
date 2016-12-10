@@ -146,7 +146,7 @@ Checks if the business is open right now.
 
 Checks if the business is closed right now.
 
-```php
+```html
 {{ opening_hours:isClosed }}
     <p>Closed</p>
 {{ /opening_hours:isClosed }}
