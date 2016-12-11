@@ -166,7 +166,7 @@ If you discover any security related issues, please email rias@marbles.be instea
 
 ## Credits
 
-Special thanks to Spatie for making their [Laravel Opening Hours package](https://github.com/spatie/opening-hours)
+Special thanks to Spatie for making their [Opening Hours package](https://github.com/spatie/opening-hours)
 
 - [Rias Van der Veken](https://github.com/rias500)
 - [All Contributors](../../contributors)
