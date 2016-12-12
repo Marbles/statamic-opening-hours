@@ -16,12 +16,12 @@ class OpeningHoursTags extends Tags
         $hours = collect($this->getConfig('hours'))->map(function ($days) {
             return collect($days)->map(function ($day) {
                 if ($day['from'] && $day['to']) {
-                    return $day['from'] . '-' . $day['to'];
+                    return $day['from'].'-'.$day['to'];
                 }
 
                 return '';
             })->filter(function ($day) {
-                return $day != "";
+                return $day != '';
             });
         });
 
@@ -32,7 +32,7 @@ class OpeningHoursTags extends Tags
                 $formattedExceptions[$date] = [];
             }
 
-            $formattedExceptions[$date][] = $exception['from'] . '-' . $exception['to'];
+            $formattedExceptions[$date][] = $exception['from'].'-'.$exception['to'];
         }
 
         $hours->put('exceptions', $formattedExceptions);
@@ -41,13 +41,15 @@ class OpeningHoursTags extends Tags
     }
 
     /**
-     * The {{ opening_hours }} tag
-     * @return array|string
+     * The {{ opening_hours }} tag.
+     *
      * @throws \Exception
+     *
+     * @return array|string
      */
     public function index()
     {
-        throw new \Exception("Opening Hours always requires a parameter.");
+        throw new \Exception('Opening Hours always requires a parameter.');
     }
 
     public function forDay()
@@ -137,14 +139,14 @@ class OpeningHoursTags extends Tags
         foreach ($day as $time) {
             $times->push([
                 'from' => (string) $time->start(),
-                'to' => (string) $time->end()
+                'to'   => (string) $time->end(),
             ]);
         }
 
         if (!$times->count()) {
             $times->push([
                 'from' => '',
-                'to' => ''
+                'to'   => '',
             ]);
         }
 
@@ -174,8 +176,8 @@ class OpeningHoursTags extends Tags
             }
 
             $days->push([
-                'date' => $date,
-                'hours' => $hours
+                'date'  => $date,
+                'hours' => $hours,
             ]);
         }
 
