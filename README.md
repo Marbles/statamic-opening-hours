@@ -1,6 +1,9 @@
 # An add-on to set up and display opening hours
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/f999dd3a-6477-475c-8ec2-7e9f191c79c8.svg?style=flat-square)](https://insight.sensiolabs.com/projects/f999dd3a-6477-475c-8ec2-7e9f191c79c8)
+[![Quality Score](https://img.shields.io/scrutinizer/g/marbles/statamic-opening-hours.svg?style=flat-square)](https://scrutinizer-ci.com/g/marbles/statamic-opening-hours)
+[![StyleCI](https://styleci.io/repos/76113626/shield?branch=master)](https://styleci.io/repos/76113626)
 
 With this Opening Hours add-on you can define the opening hours of your business in a settings panel. The add-on provides numerous tags to display or check the opening hours.
 A set of opening hours is created by passing in a regular schedule, and a list of exceptions.
