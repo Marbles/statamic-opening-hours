@@ -1,3 +1,4 @@
+/** global: Vue */
 Vue.component('opening_hours-fieldtype', {
 
     template: '' +

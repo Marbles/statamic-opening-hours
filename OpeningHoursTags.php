@@ -92,9 +92,7 @@ class OpeningHoursTags extends Tags
 
     public function isOpenAt()
     {
-        $date = Carbon::parse($this->getParam('date'));
-
-        if ($this->openingHours->isOpenAt($date)) {
+        if ($this->openingHours->isOpenAt(Carbon::parse($this->getParam('date')))) {
             return $this->content;
         }
 
@@ -103,9 +101,7 @@ class OpeningHoursTags extends Tags
 
     public function isClosedAt()
     {
-        $date = Carbon::parse($this->getParam('date'));
-
-        if ($this->openingHours->isClosedAt($date)) {
+        if ($this->openingHours->isClosedAt(Carbon::parse($this->getParam('date')))) {
             return $this->content;
         }
 
