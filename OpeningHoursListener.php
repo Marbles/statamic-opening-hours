@@ -13,7 +13,7 @@ class OpeningHoursListener extends Listener
      * @var array
      */
     public $events = [
-        'cp.nav.created' => 'addNavItems'
+        'cp.nav.created' => 'addNavItems',
     ];
 
     public function addNavItems($nav)
