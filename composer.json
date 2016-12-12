@@ -1,5 +1,7 @@
 {
     "name": "marbles/opening-hours",
+    "description": "Insert and display opening hours",
+    "license": "MIT",
     "require": {
         "spatie/opening-hours": "^1.1"
     }
